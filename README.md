@@ -5,7 +5,13 @@ This software generates AskReddit reading videos for you.
 
 ## Usage
 
-If you just run the .jar file, it will generate a video with a template post I entered. To properly configure which post to use,
+When you run the .jar file right after downloading, it probably won't work.
+
+If you are on windows, you have to [download ffmpeg](https://ffmpeg.zeranoe.com/builds/) and put the ffmpeg.exe next to the jar file.
+
+If you are on linux, execute `apt-get install ffmpeg`
+
+If you execute it now, it will generate a video with a template post I entered. To properly configure which post to use,
 you have to launch it from the command line.
 
 `java -jar AskRedditGenerator.jar <Reddit Post ID>`
